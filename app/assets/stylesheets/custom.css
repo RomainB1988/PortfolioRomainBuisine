@@ -1,27 +1,52 @@
-/* app/assets/stylesheets/custom.css */
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Times', sans-serif;
 }
 
 .navbar-custom {
-  background-color: #333; /* Couleur de fond */
-  border-bottom: 2px solid #fff; /* Bordure inférieure blanche */
+  background-color: #7b1515; /* Couleur de fond */
+  border-bottom: 2px solid #fbf7f7; /* Bordure inférieure blanche */
 }
 
 .navbar-custom .navbar-brand {
-  color: #fff; /* Couleur du texte */
+  color: #111010; /* Couleur du texte */
   font-size: 1.5rem; /* Taille de la police */
+
 }
 
 .navbar-custom .navbar-nav .nav-link {
-  color: #fff; /* Couleur du texte des liens */
+  color: #757171; /* Couleur du texte des liens */
   font-size: 1rem; /* Taille de la police des liens */
 }
 
 .navbar-custom .navbar-nav .nav-link:hover {
-  color: #ffd700; /* Couleur du texte des liens au survol */
+  color: #0c0c0b; /* Couleur du texte des liens au survol */
+  text-decoration: underline #0c0c0b; /* Soulignement des liens au survol */
 }
 
 .navbar-contact-btn {
   margin-right: 15px;
+}
+
+.banner-section {
+  background-image: url('chemin/vers/votre/image.jpg'); /* Remplacez par le chemin de votre image */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Couleur du texte */
+  text-align: center;
+  padding: 100px 0; /* Ajustez selon vos besoins */
+}
+
+.banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.banner-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 1.25rem;
 }
