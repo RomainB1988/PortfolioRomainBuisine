@@ -1,11 +1,13 @@
 
 body {
   font-family: 'Times', sans-serif;
+  text-align: center;
 }
 
 .navbar-custom {
   background-color: #7b1515; /* Couleur de fond */
   border-bottom: 2px solid #fbf7f7; /* Bordure inférieure blanche */
+
 }
 
 .navbar-custom .navbar-brand {
@@ -14,9 +16,14 @@ body {
 
 }
 
+.navbar-custom .navbar-nav {
+  text-align: center; /* Ajoutez cette ligne pour centrer le texte */
+}
 .navbar-custom .navbar-nav .nav-link {
-  color: #757171; /* Couleur du texte des liens */
-  font-size: 1rem; /* Taille de la police des liens */
+  display: inline-block; /* Ajoutez cette ligne pour maintenir les liens en ligne */
+  color: #757171;
+  font-size: 1rem;
+  margin: 0 15px; /* Ajoutez une marge entre les liens pour l'esthétique (ajustez selon vos besoins) */
 }
 
 .navbar-custom .navbar-nav .nav-link:hover {
@@ -29,12 +36,10 @@ body {
 }
 
 .banner-section {
-  background-image: url('chemin/vers/votre/image.jpg'); /* Remplacez par le chemin de votre image */
+  background-image: url('https://res.cloudinary.com/dpng0dizn/image/upload/v1706714256/Sans_titre_Canvas_Banner_1000_x_250_px_pmf4ww.png'); /* Remplacez par le chemin de votre image */
   background-size: cover;
   background-position: center;
-  color: #fff; /* Couleur du texte */
-  text-align: center;
-  padding: 100px 0; /* Ajustez selon vos besoins */
+  padding: 200px 0; /* Ajustez selon vos besoins */
 }
 
 .banner-content {
