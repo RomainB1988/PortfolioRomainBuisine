@@ -1,0 +1,27 @@
+/* app/assets/stylesheets/custom.css */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar-custom {
+  background-color: #333; /* Couleur de fond */
+  border-bottom: 2px solid #fff; /* Bordure inférieure blanche */
+}
+
+.navbar-custom .navbar-brand {
+  color: #fff; /* Couleur du texte */
+  font-size: 1.5rem; /* Taille de la police */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #fff; /* Couleur du texte des liens */
+  font-size: 1rem; /* Taille de la police des liens */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #ffd700; /* Couleur du texte des liens au survol */
+}
+
+.navbar-contact-btn {
+  margin-right: 15px;
+}
