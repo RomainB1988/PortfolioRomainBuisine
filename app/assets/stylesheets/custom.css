@@ -55,3 +55,102 @@ body {
 .banner-content p {
   font-size: 1.25rem;
 }
+
+.custom-container {
+  width: 100%; /* Fait en sorte que la container occupe toute la largeur */
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+#section1,
+#section3,
+#section5 {
+  background-color: #fff; /* Blanc pour la section 1 et 3 */
+}
+
+#section2{
+  background-color: #E7EEEE; /* Gris pour la section 2 et 4 */
+}
+#section4{
+  background-color: #F7F4F4;
+}
+#section6{
+  background-color: #616A77;
+}
+
+/* Pour que chaque section occupe toute la largeur de la page */
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6 {
+  width: 100%;
+  padding: 100px; /* Ajoute une marge interne pour plus d'espace autour du contenu */
+}
+h2{
+  font-family: "Cormorant", serif;
+  font-weight: bold;
+}
+body{
+  font-family: "Cormorant", serif;
+  font-size: 22px; /* Remplacez 16px par la taille de police souhaitée */
+}
+.section > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.section > ul > li::before {
+  content: '\2022';
+  color: #000000;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em; /* Ajustez cette valeur selon vos préférences */
+  vertical-align:auto; /* Alignement vertical */
+  margin-right: 0.5em; /* Espacement entre le point et le texte */
+}
+.card-trip {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-trip > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-trip .card-trip-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
