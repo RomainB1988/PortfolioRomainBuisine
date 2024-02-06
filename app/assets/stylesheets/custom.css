@@ -158,3 +158,50 @@ body{
 #section6 h2 {
   color: white;
 }
+.logo-card {
+  max-width: 15%; /* Ajustez la taille maximale selon vos besoins */
+  height: auto;    /* Pour conserver les proportions originales */
+}
+.section-divider {
+  border-color: #ADBC9F; /* Remplacez #ff0000 par la couleur de votre choix en format hexadécimal */
+}
+.custom-link {
+  color: #ADBC9F; /* Remplacez #ff0000 par la couleur de votre choix en format hexadécimal */
+  /* Vous pouvez également définir d'autres styles, tels que la taille de police, le soulignement, etc. */
+}
+/* Styles pour la fenêtre modale */
+.modal {
+  text-align: center;
+}
+
+.modal-dialog {
+  max-width: 80%; /* Ajustez la largeur maximale selon vos besoins */
+}
+
+.modal-content {
+  width: 100%;
+}
+
+.modal-header, .modal-body, .modal-footer {
+  padding: 20px; /* Ajustez l'espacement intérieur selon vos besoins */
+}
+
+/* Styles pour centrer le titre de la fenêtre modale */
+.modal-title {
+  margin: 0 auto;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 900px; /* Ajustez la largeur maximale selon vos préférences */
+  margin: 0 auto; /* Centrer le contenu horizontalement */
+  text-align: left; /* Aligner le texte à gauche à l'intérieur du conteneur */
+}
+.custom-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 900px; /* Ajustez la largeur maximale selon vos préférences */
+  margin: 0 auto; /* Centrer le contenu horizontalement */
+}
